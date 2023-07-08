@@ -1,0 +1,23 @@
+.letter_box {
+    background-color: #eeeeee;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 38px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: move;
+    touch-action: none;
+    transition: 0.2s transform;
+    user-select: none;
+    margin: 3px;
+}
+
+.dragged_letter_box {
+    opacity: 0.0;
+    pointer-events: none;
+}

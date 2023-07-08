@@ -1,0 +1,19 @@
+.anagram_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: max-content;
+}
+
+.clone {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.outer_container {
+    background-color: darkgray;
+    padding: 50px;
+}
